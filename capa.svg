@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="1200" viewBox="0 0 900 1200">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#171b18"/>
+      <stop offset="1" stop-color="#050806"/>
+    </linearGradient>
+    <linearGradient id="green" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#00e676"/>
+      <stop offset="1" stop-color="#00a744"/>
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="22" stdDeviation="20" flood-color="#000" flood-opacity=".55"/>
+    </filter>
+  </defs>
+
+  <rect width="900" height="1200" rx="44" fill="url(#bg)"/>
+  <circle cx="760" cy="200" r="260" fill="#00e676" opacity=".08"/>
+  <circle cx="90" cy="1060" r="300" fill="#00c853" opacity=".07"/>
+
+  <g filter="url(#shadow)">
+    <rect x="98" y="86" width="704" height="1028" rx="34" fill="#111712" stroke="#00e676" stroke-width="8"/>
+    <rect x="98" y="86" width="704" height="180" rx="34" fill="url(#green)"/>
+    <rect x="98" y="232" width="704" height="34" fill="url(#green)"/>
+
+    <text x="450" y="158" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="54" font-weight="700" fill="#07110b">PIX</text>
+    <text x="450" y="220" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="72" font-weight="800" fill="#07110b">INTELIGENTE</text>
+
+    <text x="450" y="385" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="48" font-weight="700" fill="#fff">Como Ganhar</text>
+    <text x="450" y="445" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="48" font-weight="700" fill="#fff">Dinheiro com o</text>
+    <text x="450" y="505" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="48" font-weight="700" fill="#00e676">Celular</text>
+
+    <rect x="260" y="556" rx="28" width="380" height="86" fill="#00c853"/>
+    <text x="450" y="616" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="58" font-weight="800" fill="#07110b">7 DIAS</text>
+
+    <g transform="translate(450 820)">
+      <rect x="-168" y="-86" width="336" height="172" rx="42" fill="#0a0d0b" stroke="#00e676" stroke-width="7"/>
+      <rect x="-112" y="-58" width="224" height="116" rx="24" fill="#1d241f"/>
+      <circle cx="0" cy="0" r="44" fill="#00c853"/>
+      <path d="M-18-8h36v16h-36zM-8-18h16v36h-16z" fill="#07110b" opacity=".9"/>
+    </g>
+
+    <text x="450" y="1010" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="32" font-weight="700" fill="#b7c5bb">GUIA PRÁTICO</text>
+  </g>
+</svg>
